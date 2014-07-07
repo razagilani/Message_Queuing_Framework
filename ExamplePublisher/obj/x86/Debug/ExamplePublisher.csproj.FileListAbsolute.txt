@@ -1,0 +1,11 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExamplePublisher\obj\x86\Debug\ExamplePublisher.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExamplePublisher\bin\Debug\ExamplePublisher.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExamplePublisher\bin\Debug\ExamplePublisher.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExamplePublisher\bin\Debug\ExamplePublisher.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExamplePublisher\bin\Debug\MessageQueue.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExamplePublisher\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExamplePublisher\bin\Debug\MessageQueue.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExamplePublisher\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExamplePublisher\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExamplePublisher\obj\x86\Debug\ExamplePublisher.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExamplePublisher\obj\x86\Debug\ExamplePublisher.pdb

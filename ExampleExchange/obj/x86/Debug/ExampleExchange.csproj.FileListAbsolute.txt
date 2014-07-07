@@ -1,0 +1,11 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExampleExchange\obj\x86\Debug\ExampleExchange.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExampleExchange\bin\Debug\ExampleExchange.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExampleExchange\bin\Debug\ExampleExchange.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExampleExchange\bin\Debug\ExampleExchange.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExampleExchange\bin\Debug\MessageQueue.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExampleExchange\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExampleExchange\bin\Debug\MessageQueue.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExampleExchange\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExampleExchange\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExampleExchange\obj\x86\Debug\ExampleExchange.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExampleExchange\obj\x86\Debug\ExampleExchange.pdb

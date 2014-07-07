@@ -1,0 +1,10 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassLibrary1\bin\Release\CLRTrigger.dll.config
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassLibrary1\bin\Release\CLRTrigger.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassLibrary1\bin\Release\CLRTrigger.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassLibrary1\bin\Release\MessageQueue.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassLibrary1\bin\Release\Newtonsoft.Json.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassLibrary1\bin\Release\MessageQueue.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassLibrary1\bin\Release\Newtonsoft.Json.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassLibrary1\bin\Release\Newtonsoft.Json.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassLibrary1\obj\Release\CLRTrigger.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassLibrary1\obj\Release\CLRTrigger.pdb
