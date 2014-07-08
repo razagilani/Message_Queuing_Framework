@@ -1,0 +1,14 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal\bin\Debug\Portal.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal\bin\Debug\Portal.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal\obj\x86\Debug\Portal.Form1.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal\obj\x86\Debug\Portal.Properties.Resources.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal\obj\x86\Debug\Portal.csproj.GenerateResource.Cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal\obj\x86\Debug\Portal.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal\obj\x86\Debug\Portal.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal\bin\Debug\Portal.exe.config
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal\bin\Debug\MessageQueue.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal\bin\Debug\MessageQueue.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal\obj\x86\Debug\Portal.csprojResolveAssemblyReference.cache

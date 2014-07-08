@@ -8,3 +8,4 @@ C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassL
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassLibrary1\bin\Release\Newtonsoft.Json.xml
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassLibrary1\obj\Release\CLRTrigger.dll
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassLibrary1\obj\Release\CLRTrigger.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassLibrary1\obj\Release\CLRTrigger.csprojResolveAssemblyReference.cache

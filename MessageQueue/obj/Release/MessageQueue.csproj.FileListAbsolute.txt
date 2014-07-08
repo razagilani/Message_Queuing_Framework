@@ -6,3 +6,4 @@ C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\Messag
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\MessageQueue\bin\Release\MessageQueue.dll
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\MessageQueue\obj\Release\MessageQueue.dll
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\MessageQueue\bin\Release\MessageQueue.dll.config
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\MessageQueue\obj\Release\MessageQueue.csprojResolveAssemblyReference.cache

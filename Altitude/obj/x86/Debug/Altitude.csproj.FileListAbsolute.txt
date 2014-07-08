@@ -1,0 +1,14 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Altitude\bin\Debug\Altitude.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Altitude\bin\Debug\Altitude.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Altitude\obj\x86\Debug\Altitude.Form1.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Altitude\obj\x86\Debug\Altitude.Properties.Resources.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Altitude\obj\x86\Debug\Altitude.csproj.GenerateResource.Cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Altitude\obj\x86\Debug\Altitude.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Altitude\obj\x86\Debug\Altitude.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Altitude\obj\x86\Debug\Altitude.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Altitude\bin\Debug\Altitude.exe.config
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Altitude\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Altitude\bin\Debug\MessageQueue.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Altitude\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Altitude\bin\Debug\MessageQueue.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Altitude\bin\Debug\Newtonsoft.Json.xml

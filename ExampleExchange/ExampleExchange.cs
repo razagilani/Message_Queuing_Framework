@@ -9,7 +9,7 @@ namespace ExampleExchange
 {
     class ExampleExchange: MessageQueue.Exchange
     {
-        public ExampleExchange(Dictionary<string,List<Dictionary<string, string>>> config, string name): base("localhost", config, "ExampleExchange", name)
+        public ExampleExchange(Dictionary<string,List<Dictionary<string, string>>> config, string name, object obj): base("localhost", config, "ExampleExchange", name, obj)
         {
             Console.WriteLine("ExampleExchange constructor called");
         }
@@ -27,7 +27,8 @@ namespace ExampleExchange
                 inner.Add(new Dictionary<string, string>() { { "redeliver_attempts", r.Parameters[0].manualAck } });
                 //inner.Add(r.Parameters[0].redeliverAttempts, r.Parameters[0].redeliverDelay, r.Parameters[0].manualAck);
                 config.Add(r.Parameters[0].Name, inner);
-                Exchange e = new ExampleExchange(config, "example");
+                object obj = new Object();
+                Exchange e = new ExampleExchange(config, "example", obj);
             }
             catch (Exception x)
             {

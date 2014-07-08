@@ -12,7 +12,7 @@ namespace ExamplePublisher
 {
     public class ExamplePublisher:Publisher
     {
-        private Publisher pub;
+        private static Publisher pub;
         public ExamplePublisher(Dictionary<string, List<string>> config): base("localhost", config)
         {
 
@@ -40,7 +40,7 @@ namespace ExamplePublisher
                 temp.Add(e.Name);
             }
             conf.Add("routing_keys", temp);
-            Publisher pub = new Publisher("localhost",conf);
+            pub = new Publisher("localhost",conf);
             while (true)
             {
                 Console.WriteLine("Enter Message");

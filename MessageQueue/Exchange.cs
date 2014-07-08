@@ -49,6 +49,10 @@ namespace MessageQueue
         private IModel delay_channel;
         private ArrayList handlers;
         /// <summary>
+        /// this is an object used in message handler for displaying data in ui
+        /// </summary>
+        private object ui_obj;
+        /// <summary>
         /// Description for Exchange Constructor.</summary>
         /// <param name="amqp_host">The ip or hostname of the AMPQ server</param>
         /// <param name="config">An ArrayList of Tuples mapping Queues to MessageHandlers.
@@ -60,7 +64,7 @@ namespace MessageQueue
         ///<param name="handler_module"> the .NET namespace that contains the MessageHandler
         ///derivative classes </param>
         ///<param name="name"> the name of the exchange</param>
-        public Exchange(string amqp_host, Dictionary<string, List<Dictionary<string, string>>> config, string handler_module, string name)
+        public Exchange(string amqp_host, Dictionary<string, List<Dictionary<string, string>>> config, string handler_module, string name, object ui_obj)
         {
             this.config = config;
             this.handler_module = handler_module;
@@ -73,6 +77,7 @@ namespace MessageQueue
             channel.ExchangeDeclare(this.name,"direct");
             this.delay_channel = connection.CreateModel();
             delay_channel.ConfirmSelect();
+            this.ui_obj = ui_obj;
             this.handlers = new ArrayList();
             foreach(var outerdict in config)
             {
@@ -110,7 +115,7 @@ namespace MessageQueue
                     // setup arguments for creating MessageHandler instanse
                     object[] args = new object[] { this.channel, route, outerdict.Value,
                                     this.delay_channel,
-                                    string.Format("{0}_delay", route, manual_ack)};
+                                    string.Format("{0}_delay", route), manual_ack, this.ui_obj};
                     // create a MessageHandler object
                     MessageHandler handler = (MessageHandler)Activator.CreateInstance(classType, args);
                     
