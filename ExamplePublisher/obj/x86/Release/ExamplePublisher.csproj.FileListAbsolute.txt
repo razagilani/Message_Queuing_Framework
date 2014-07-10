@@ -9,3 +9,6 @@ C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\Exampl
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExamplePublisher\obj\x86\Release\ExamplePublisher.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExamplePublisher\obj\x86\Release\ExamplePublisher.exe
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExamplePublisher\obj\x86\Release\ExamplePublisher.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExamplePublisher\bin\Release\RabbitMQ.Client.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExamplePublisher\bin\Release\LinqBridge.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ExamplePublisher\bin\Release\RabbitMQ.Client.xml

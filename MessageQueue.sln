@@ -4,14 +4,26 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageQueue", "MessageQueue\MessageQueue.csproj", "{61077E2B-37F1-4ABC-9134-703328F2A3E7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplePublisher", "ExamplePublisher\ExamplePublisher.csproj", "{168AD10B-AD4A-4C15-943B-255E8488BC51}"
+	ProjectSection(ProjectDependencies) = postProject
+		{61077E2B-37F1-4ABC-9134-703328F2A3E7} = {61077E2B-37F1-4ABC-9134-703328F2A3E7}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleExchange", "ExampleExchange\ExampleExchange.csproj", "{DDC3B821-2789-4714-857C-8D73C29768D1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{61077E2B-37F1-4ABC-9134-703328F2A3E7} = {61077E2B-37F1-4ABC-9134-703328F2A3E7}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLRTrigger", "ClassLibrary1\CLRTrigger.csproj", "{376264D7-1806-4832-AE24-846404E9E3FD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{61077E2B-37F1-4ABC-9134-703328F2A3E7} = {61077E2B-37F1-4ABC-9134-703328F2A3E7}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altitude", "Altitude\Altitude.csproj", "{C43D3D2F-B298-4C04-8815-E1AAE617DA62}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portal", "Portal\Portal.csproj", "{10518C77-FE8E-4787-96AE-EF3337909DDF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{61077E2B-37F1-4ABC-9134-703328F2A3E7} = {61077E2B-37F1-4ABC-9134-703328F2A3E7}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -92,7 +92,7 @@ namespace MessageQueue
             wasn't acked, so we can reject it later if neccessary */
             if (this.manual_ack)
             {
-                if (msg.Acked==null || !msg.Acked )
+                if (msg.Acked==null || !(Convert.ToBoolean(msg.Acked)) )
                 {
                     if (this.unacked_msgs.ContainsKey(msg.Id))
                     {

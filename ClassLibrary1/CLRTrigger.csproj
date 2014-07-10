@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CLRTrigger</RootNamespace>
     <AssemblyName>CLRTrigger</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -32,23 +32,26 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="LinqBridge">
+      <HintPath>..\..\..\..\..\Downloads\LinqBridge-1.3\LinqBridge.dll</HintPath>
+    </Reference>
     <Reference Include="MessageQueue">
       <HintPath>..\MessageQueue\bin\Release\MessageQueue.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\MessageQueue\bin\Release\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\..\Downloads\Json60r3\Bin\Net20\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RabbitMQ.Client, Version=2.4.1.0, Culture=neutral, PublicKeyToken=89e7d7c5feba84ce, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Downloads\rabbitmq-dotnet-client-2.4.1-dotnet-2.0\bin\RabbitMQ.Client.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomerTrigger.cs" />
+    <Compile Include="CLRTrigger.cs" />
     <Compile Include="MyConfigSection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

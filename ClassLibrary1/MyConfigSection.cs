@@ -6,13 +6,15 @@ using System.Configuration;
 
 namespace CLRTrigger
 {
-    public class MyConfigSection : ConfigurationSection {
-    [ConfigurationProperty("", IsRequired = true, IsDefaultCollection = true)]
-    public MyConfigInstanceCollection Instances {
-        get { return (MyConfigInstanceCollection)this[""]; }
-        set { this[""] = value; }
+    public class MyConfigSection : ConfigurationSection
+    {
+        [ConfigurationProperty("", IsRequired = true, IsDefaultCollection = true)]
+        public MyConfigInstanceCollection Instances
+        {
+            get { return (MyConfigInstanceCollection)this[""]; }
+            set { this[""] = value; }
+        }
     }
-}
 
     public class MyConfigInstanceElement : ConfigurationElement
     {
@@ -25,43 +27,47 @@ namespace CLRTrigger
         }
 
 
-    } 
-public class MyConfigInstanceCollection : ConfigurationElementCollection, IEnumerable<MyConfigInstanceElement> {
-    protected override ConfigurationElement CreateNewElement() {
-        return new MyConfigInstanceElement();
     }
-
-
-    protected override object GetElementKey(ConfigurationElement element) {
-        //set to whatever Element Property you want to use for a key
-        var l_configElement = element as MyConfigInstanceElement;
-        if (l_configElement != null)
-            return l_configElement.Name;
-        else
-            return null;
-    }
-
-    public MyConfigInstanceElement this[int index]
+    public class MyConfigInstanceCollection : ConfigurationElementCollection, IEnumerable<MyConfigInstanceElement>
     {
-        get
+        protected override ConfigurationElement CreateNewElement()
         {
-            return BaseGet(index) as MyConfigInstanceElement;
+            return new MyConfigInstanceElement();
         }
-    }
-    #region IEnumerable<MyConfigInstanceElement> Members
 
-    IEnumerator<MyConfigInstanceElement> IEnumerable<MyConfigInstanceElement>.GetEnumerator()
-    {
-        /*foreach(MyConfigInstanceElement item in (this as IEnumerable<MyConfigInstanceElement>))
+
+        protected override object GetElementKey(ConfigurationElement element)
         {
-            yield return item;
-        }*/
-        return (from i in Enumerable.Range(0, this.Count)
-                select this[i]).GetEnumerator();
+            //set to whatever Element Property you want to use for a key
+            var l_configElement = element as MyConfigInstanceElement;
+            if (l_configElement != null)
+                return l_configElement.Name;
+            else
+                return null;
+        }
+
+        public MyConfigInstanceElement this[int index]
+        {
+            get
+            {
+                return BaseGet(index) as MyConfigInstanceElement;
+            }
+        }
+        #region IEnumerable<MyConfigInstanceElement> Members
+
+        IEnumerator<MyConfigInstanceElement> IEnumerable<MyConfigInstanceElement>.GetEnumerator()
+        {
+            /*foreach(MyConfigInstanceElement item in (this as IEnumerable<MyConfigInstanceElement>))
+            {
+                yield return item;
+            }*/
+            return (from i in Enumerable.Range(0, this.Count)
+                    select this[i]).GetEnumerator();
+        }
+
+        #endregion
     }
 
-    #endregion
-}
 
 
 }

@@ -11,6 +11,7 @@ using MessageQueue;
 using Newtonsoft.Json;
 using RabbitMQ.Client;
 using System.Configuration;
+using CLRTrigger;
 
 namespace Altitude
 {
@@ -28,7 +29,7 @@ namespace Altitude
         public Form1()
         {
             InitializeComponent();
-            //Load Configuration from config file for instantiating a Publisher
+            //Load Configuration from config file for instantiating a  Publisher
             var exchangeConfig = ConfigurationManager.GetSection("ExchangeConfig") as PublisherConfig;
             Dictionary<string, List<string>> conf = new Dictionary<string, List<string>>();
             List<string> temp = new List<string>();

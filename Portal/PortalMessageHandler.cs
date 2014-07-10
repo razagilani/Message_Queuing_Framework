@@ -21,9 +21,9 @@ namespace Portal
 
         public override Dictionary<string, string> handle(MessageQueue.Message message)
         {
-            dynamic data = JsonConvert.DeserializeObject(message.Body);
-            this.form.add_row(Convert.ToInt16(data.ID.Value), data.first_name.Value, data.last_name.Value,
-                data.city.Value, data.state.Value, data.phone.Value);
+            Dictionary<string,string> data = JsonConvert.DeserializeObject<Dictionary<string,string>>(message.Body);
+            //this.form.add_row(Convert.ToInt16(data["ID"]), data["first_name"], data["last_name"], data["city]", data["state"], data["phone"]);
+            this.form.add_row(Convert.ToInt16(data["ID"]), data["first_name"], data["last_name"], data["city"], data["state"], data["phone"]);
             message.ack();
             Dictionary<string, string> response = new Dictionary<string, string>();
             response.Add("message", String.Format("This is a Account Handler  response to " +

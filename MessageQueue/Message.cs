@@ -32,8 +32,8 @@ namespace MessageQueue
             }
         }
         private Boolean received;
-        private dynamic acked;
-        public dynamic Acked
+        private object acked;
+        public object Acked
         {
             get
             {
@@ -141,7 +141,7 @@ namespace MessageQueue
             }
             else
             {
-                this.headers = props.Headers;
+                this.headers = (Dictionary<string, object>)props.Headers;
                 this.contentType = props.ContentType;
                 this.id = props.MessageId;
             }
@@ -158,7 +158,7 @@ namespace MessageQueue
                 {
                     throw new MessageException("Can only acknowledge received messages");
                 }
-                this.acked = false;
+                this.acked = (Boolean)false;
                 //this.ack_used = 1;
                 this.channel.BasicNack(this.deliveryTag, false, true);
             }
@@ -191,7 +191,7 @@ namespace MessageQueue
             /*
             Attempts to redeliver the message delayed.
             */
-            if (this.acked)
+            if (this.acked!= null)
             {
                 //this.acked = null;
                 if (this.delayQueue == null || this.delayChannel == null)
@@ -201,10 +201,9 @@ namespace MessageQueue
                 if (!this.received)
                     throw new MessageException("Can only delay received " +
                                        "messages");
-                dynamic msg_body = this.body.Clone();
-                msg_body = JsonConvert.DeserializeObject(msg_body);
-                msg_body._timestamp = this.sent;
-                msg_body._type = this.messageType;
+                Dictionary<string, string> msg_body = JsonConvert.DeserializeObject<Dictionary<string, string>>(this.Body);
+                msg_body["_timestamp"] = Convert.ToString(this.sent);
+                msg_body["_type"] = this.messageType;
                 string json_msg_body = JsonConvert.SerializeObject(msg_body);
                 IBasicProperties properties = delayChannel.CreateBasicProperties();
                 properties.CorrelationId = this.correlationID;
@@ -250,8 +249,8 @@ namespace MessageQueue
         if (!this.msgSent)
         {
             DateTime now = DateTime.Now;
-            dynamic msg_body = this.body.Clone();
-            Dictionary<string, string> json_data = JsonConvert.DeserializeObject<Dictionary<string, string>>(msg_body);
+            //string msg_body = this.body.Clone();
+            Newtonsoft.Json.Linq.JObject json_data = Newtonsoft.Json.Linq.JObject.Parse(this.Body);
             json_data["_timestamp"] = Convert.ToString(now);
             json_data["_type"] = this.messageType;
             IBasicProperties properties = this.channel.CreateBasicProperties();
@@ -275,7 +274,7 @@ namespace MessageQueue
         if (!this.received)
             throw new MessageException("Can only reply to received " +
                                    "messages");
-        if (this.acked && this.replyTo!="")
+        if (Convert.ToBoolean(this.acked) && this.replyTo!="")
         {
             Message msg = new Message(channel, "", this.replyTo, content,
                 redelivered, deliveryTag);
