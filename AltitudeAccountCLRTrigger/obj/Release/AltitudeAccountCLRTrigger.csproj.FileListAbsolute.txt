@@ -1,0 +1,13 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeAccountCLRTrigger\bin\Release\AltitudeAccountCLRTrigger.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeAccountCLRTrigger\bin\Release\AltitudeAccountCLRTrigger.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeAccountCLRTrigger\bin\Release\LinqBridge.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeAccountCLRTrigger\bin\Release\MessageQueue.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeAccountCLRTrigger\bin\Release\Newtonsoft.Json.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeAccountCLRTrigger\bin\Release\RabbitMQ.Client.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeAccountCLRTrigger\bin\Release\MessageQueue.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeAccountCLRTrigger\bin\Release\Newtonsoft.Json.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeAccountCLRTrigger\bin\Release\Newtonsoft.Json.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeAccountCLRTrigger\bin\Release\RabbitMQ.Client.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeAccountCLRTrigger\obj\Release\AltitudeAccountCLRTrigger.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeAccountCLRTrigger\obj\Release\AltitudeAccountCLRTrigger.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeAccountCLRTrigger\obj\Release\AltitudeAccountCLRTrigger.pdb
