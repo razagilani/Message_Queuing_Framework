@@ -25,15 +25,15 @@ namespace AltitudeIndividualCLRTrigger
 
         public static void sendInserted()
         {
-            string exchange = "PortalExchange";
-            string message_handler = "PortalMessageHandler";
+            string exchange = "altitude";
+            string routing_key = "some_other_routing_key";
             Dictionary<string, List<string>> conf = new Dictionary<string, List<string>>();
             List<string> temp = new List<string>();
             temp.Add(exchange);
             conf.Add("exchanges", temp);
             temp = null;
             temp = new List<string>();
-            temp.Add(message_handler);
+            temp.Add(routing_key);
             conf.Add("routing_keys", temp);
             pub = new AltitudeIndividualCLRTrigger(conf);
             //SqlContext.Pipe.Send("Publisher Instantiated");
@@ -44,18 +44,22 @@ namespace AltitudeIndividualCLRTrigger
             SqlCommand sqlComm = conn.CreateCommand();
             SqlPipe sqlP = SqlContext.Pipe;
             SqlDataReader dr;
-            sqlComm.CommandText = "SELECT First, Middle, Last, Work_Email, Create_Date from inserted";
+            sqlComm.CommandText = "SELECT First, Middle, Last, Work_Email, Create_Date, Individual_Global_Unique_Identifier from inserted";
             dr = sqlComm.ExecuteReader();
             SqlContext.Pipe.Send("Command Executed");
-            while (dr.Read())
+            Dictionary<string, Dictionary<string, string>> individual = new Dictionary<string, Dictionary<string, string>>();
+            if (dr.Read())
             {
                 Dictionary<string, string> content = new Dictionary<string, string>();
                 content.Add("First_Name", Convert.ToString(dr[0]));
-                content.Add("Middle_name", Convert.ToString(dr[1]));
-                content.Add("Last_name", Convert.ToString(dr[2]));
-                content.Add("Work EMail", Convert.ToString(dr[3]));
+                content.Add("Middle_Name", Convert.ToString(dr[1]));
+                content.Add("Last_Name", Convert.ToString(dr[2]));
+                content.Add("Email", Convert.ToString(dr[3]));
                 content.Add("Date_Created", Convert.ToString(dr[4]));
-                pub.publish(JsonConvert.SerializeObject(content));
+                content.Add("GUID", Convert.ToString(dr[5]));
+                individual.Add("Individual", content);
+                pub.publish(JsonConvert.SerializeObject(individual));
+                SqlContext.Pipe.Send("Individual object sent: " + individual);
             }
         }
             

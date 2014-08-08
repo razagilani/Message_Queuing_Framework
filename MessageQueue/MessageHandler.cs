@@ -63,7 +63,8 @@ namespace MessageQueue
             e.BasicProperties = properties;
             e.Body = body;
             Message msg = Message.createFromChannel(this.channel, redelivered, deliveryTag,
-                routingKey, properties, body, this.delayChannel, this.delayQueue);
+                routingKey, properties, body, this.delayChannel, this.delayQueue
+                );
             
             // If the message was not acknowledged by the handler multiple times
             // then the handler should reject the message
@@ -118,7 +119,7 @@ namespace MessageQueue
             }
             /* Post to the response exchange if there was a reponse and a response
                was requested by including a reply-to property */
-            if (msg.ReplyTo!="" && response.Count > 0)
+            if (msg.ReplyTo!="" && msg.ReplyTo!=null && response.Count > 0)
             {
                 if (error_occured)
                     msg.reply(JsonConvert.SerializeObject((response)), "exception");

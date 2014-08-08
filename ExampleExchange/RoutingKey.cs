@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Configuration;
 
-namespace ExampleExchange
+namespace AltitudeAccountExchange
 {
     public sealed class RoutingKey : ConfigurationSection
     {

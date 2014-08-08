@@ -1,0 +1,16 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ExampleExchange\obj\x86\Release\AltitudeAccountExchange.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ExampleExchange\bin\Release\ExamplePublisher.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ExampleExchange\bin\Release\LinqBridge.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ExampleExchange\bin\Release\MessageQueue.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ExampleExchange\bin\Release\Newtonsoft.Json.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ExampleExchange\bin\Release\RabbitMQ.Client.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ExampleExchange\bin\Release\ExamplePublisher.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ExampleExchange\bin\Release\MessageQueue.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ExampleExchange\bin\Release\Newtonsoft.Json.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ExampleExchange\bin\Release\Newtonsoft.Json.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ExampleExchange\bin\Release\RabbitMQ.Client.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ExampleExchange\bin\Release\AltitudeAccountExchange.exe.config
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ExampleExchange\bin\Release\AltitudeAccountExchange.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ExampleExchange\bin\Release\AltitudeAccountExchange.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ExampleExchange\obj\x86\Release\AltitudeAccountExchange.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ExampleExchange\obj\x86\Release\AltitudeAccountExchange.pdb

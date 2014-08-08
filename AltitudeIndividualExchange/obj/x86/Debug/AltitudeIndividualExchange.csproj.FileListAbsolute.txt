@@ -1,0 +1,14 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualExchange\obj\x86\Debug\AltitudeIndividualExchange.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualExchange\bin\Debug\AltitudeIndividualExchange.exe.config
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualExchange\bin\Debug\AltitudeIndividualExchange.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualExchange\bin\Debug\AltitudeIndividualExchange.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualExchange\bin\Debug\LinqBridge.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualExchange\bin\Debug\MessageQueue.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualExchange\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualExchange\bin\Debug\RabbitMQ.Client.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualExchange\bin\Debug\MessageQueue.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualExchange\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualExchange\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualExchange\bin\Debug\RabbitMQ.Client.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualExchange\obj\x86\Debug\AltitudeIndividualExchange.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualExchange\obj\x86\Debug\AltitudeIndividualExchange.pdb

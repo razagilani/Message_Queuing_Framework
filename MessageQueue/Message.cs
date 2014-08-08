@@ -274,16 +274,16 @@ namespace MessageQueue
         if (!this.received)
             throw new MessageException("Can only reply to received " +
                                    "messages");
-        if (Convert.ToBoolean(this.acked) && this.replyTo!="")
+        if (Convert.ToBoolean(this.acked) && this.replyTo!="" && this.replyTo!=null)
         {
-            Message msg = new Message(channel, "", this.replyTo, content,
+            Message msg = new Message(channel, exchange, this.replyTo, content,
                 redelivered, deliveryTag);
             msg.send();
             return msg;
         }
         else
         {
-            if (this.replyTo!="")
+            if (this.replyTo!="" )
                 throw new MessageException("Cannot reply to message. A reply was " +
                                        "requested but the message was not " +
                                        "acknowledged.");

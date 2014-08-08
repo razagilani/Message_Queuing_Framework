@@ -17,7 +17,7 @@ namespace MessageQueue
                 addon = "_task_callback";
             else if (type == "delay")
                 addon = "_delay";
-            return string.Format("{0}{1}{2}", recipient_exchange, 
+            return string.Format("{0}_{1}{2}", recipient_exchange, 
                 routing_key, addon);
         }
     }

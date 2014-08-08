@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 using RabbitMQ.Client;
 using MessageQueue;
 
-namespace ExampleExchange
+namespace AltitudeAccountExchange
 {
     public class Message_Handler2: MessageHandler
     {
