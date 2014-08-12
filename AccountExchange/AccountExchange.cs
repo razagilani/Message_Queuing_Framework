@@ -6,13 +6,21 @@ using System.Data.SqlClient;
 using Microsoft.SqlServer.Server;
 using System.Data.SqlTypes;
 using System.Text;
-using System.Threading;
+using MessageQueue;
 using Newtonsoft.Json;
 using RabbitMQ.Client;
-using MessageQueue;
 
-namespace AltitudeAccountHandlerService
+namespace AccountExchange
 {
+    public class AccountExchange:Exchange
+    {
+        public AccountExchange(Dictionary<string, List<Dictionary<string, string>>> config, string name, object obj, string handler_module)
+            : base("localhost", config, handler_module, name, obj)
+        {
+            Console.WriteLine("IndividualExchange constructor called");
+        }
+    }
+
     public class AccountHandler : MessageHandler
     {
 
@@ -59,8 +67,8 @@ namespace AltitudeAccountHandlerService
                 addAccount.Connection.Close();
             }
 
-                
-           
+
+
         }
         public class Account
         {
@@ -78,5 +86,4 @@ namespace AltitudeAccountHandlerService
             public string _type { get; set; }
         }
     }
-
 }

@@ -11,7 +11,7 @@ using Newtonsoft.Json;
 using RabbitMQ.Client;
 using MessageQueue;
 
-namespace AltitudeAccountHandlerService
+namespace AltitudeAccountExchange
 {
     public class AccountHandler : MessageHandler
     {

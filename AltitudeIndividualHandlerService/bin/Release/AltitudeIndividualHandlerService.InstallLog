@@ -1,0 +1,90 @@
+﻿Installing assembly 'C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.InstallLog
+   assemblypath = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe
+Installing service Altitude Individual Handler Service...
+Service Altitude Individual Handler Service has been successfully installed.
+Creating EventLog source Altitude Individual Handler Service in log Application...
+Committing assembly 'C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.InstallLog
+   assemblypath = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe
+Installing assembly 'C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.InstallLog
+   assemblypath = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe
+Installing service Altitude Individual Handler Service...
+Creating EventLog source Altitude Individual Handler Service in log Application...
+Rolling back assembly 'C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.InstallLog
+   assemblypath = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe
+Restoring event log to previous state for source Altitude Individual Handler Service.
+Uninstalling assembly 'C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.InstallLog
+   assemblypath = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe
+Removing EventLog source Altitude Individual Handler Service.
+Service Altitude Individual Handler Service is being removed from the system...
+Service Altitude Individual Handler Service was successfully removed from the system.
+Installing assembly 'C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.InstallLog
+   assemblypath = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe
+Installing service Altitude Individual Handler Service...
+Service Altitude Individual Handler Service has been successfully installed.
+Creating EventLog source Altitude Individual Handler Service in log Application...
+Committing assembly 'C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.InstallLog
+   assemblypath = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe
+Uninstalling assembly 'C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.InstallLog
+   assemblypath = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe
+Removing EventLog source Altitude Individual Handler Service.
+Service Altitude Individual Handler Service is being removed from the system...
+Service Altitude Individual Handler Service was successfully removed from the system.
+Installing assembly 'C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.InstallLog
+   assemblypath = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe
+Installing service Altitude Individual Handler Service...
+Service Altitude Individual Handler Service has been successfully installed.
+Creating EventLog source Altitude Individual Handler Service in log Application...
+Committing assembly 'C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.InstallLog
+   assemblypath = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe
+Uninstalling assembly 'C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.InstallLog
+   assemblypath = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe
+Removing EventLog source Altitude Individual Handler Service.
+Service Altitude Individual Handler Service is being removed from the system...
+Service Altitude Individual Handler Service was successfully removed from the system.
+Attempt to stop service Altitude Individual Handler Service.
+Installing assembly 'C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.InstallLog
+   assemblypath = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe
+Installing service Altitude Individual Handler Service...
+Service Altitude Individual Handler Service has been successfully installed.
+Creating EventLog source Altitude Individual Handler Service in log Application...
+Committing assembly 'C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.InstallLog
+   assemblypath = C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Release\AltitudeIndividualHandlerService.exe

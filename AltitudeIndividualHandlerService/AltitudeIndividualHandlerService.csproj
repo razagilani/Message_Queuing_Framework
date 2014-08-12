@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{71285F15-D960-4FB5-BD5D-D9B5AC31F677}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{59BFD254-91C8-44C5-89BF-A84B7D60325F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AltitudeIndividualExchange</RootNamespace>
-    <AssemblyName>AltitudeIndividualExchange</AssemblyName>
+    <RootNamespace>AltitudeIndividualHandlerService</RootNamespace>
+    <AssemblyName>AltitudeIndividualHandlerService</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>
     </TargetFrameworkProfile>
@@ -34,10 +34,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>AltitudeIndividualExchange.AltitudeIndividualExchange</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="IndividualExchange">
+      <HintPath>..\IndividualExchange\bin\Release\IndividualExchange.dll</HintPath>
+    </Reference>
     <Reference Include="LinqBridge">
       <HintPath>..\MessageQueue\bin\Release\LinqBridge.dll</HintPath>
     </Reference>
@@ -52,19 +52,48 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IndividualHandler.cs" />
+    <Compile Include="AltitudeIndividualHandlerServiceInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AltitudeIndividualHandlerService.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="AltitudeIndividualExchange.cs" />
+    <Compile Include="IndividualHandler.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RoutingKey.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config">
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="App.config" />
+    <None Include="install.bat" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="uninstall.bat" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

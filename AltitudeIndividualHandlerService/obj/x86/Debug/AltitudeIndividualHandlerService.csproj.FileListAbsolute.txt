@@ -1,0 +1,16 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Debug\AltitudeIndividualHandlerService.exe.config
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Debug\AltitudeIndividualHandlerService.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Debug\AltitudeIndividualHandlerService.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Debug\LinqBridge.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Debug\MessageQueue.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Debug\RabbitMQ.Client.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Debug\MessageQueue.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\bin\Debug\RabbitMQ.Client.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\obj\x86\Debug\AltitudeIndividualHandlerService.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\obj\x86\Debug\AltitudeIndividualHandlerService.Properties.Resources.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\obj\x86\Debug\AltitudeIndividualHandlerService.csproj.GenerateResource.Cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\obj\x86\Debug\AltitudeIndividualHandlerService.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualHandlerService\obj\x86\Debug\AltitudeIndividualHandlerService.pdb

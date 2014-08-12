@@ -1,0 +1,12 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AccountExchange\bin\Debug\AccountExchange.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AccountExchange\bin\Debug\AccountExchange.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AccountExchange\bin\Debug\LinqBridge.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AccountExchange\bin\Debug\MessageQueue.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AccountExchange\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AccountExchange\bin\Debug\RabbitMQ.Client.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AccountExchange\bin\Debug\MessageQueue.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AccountExchange\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AccountExchange\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AccountExchange\bin\Debug\RabbitMQ.Client.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AccountExchange\obj\Debug\AccountExchange.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AccountExchange\obj\Debug\AccountExchange.pdb

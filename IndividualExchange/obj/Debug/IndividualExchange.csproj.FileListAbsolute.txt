@@ -1,0 +1,12 @@
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\IndividualExchange\bin\Debug\IndividualExchange.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\IndividualExchange\bin\Debug\IndividualExchange.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\IndividualExchange\bin\Debug\LinqBridge.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\IndividualExchange\bin\Debug\MessageQueue.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\IndividualExchange\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\IndividualExchange\bin\Debug\RabbitMQ.Client.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\IndividualExchange\bin\Debug\MessageQueue.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\IndividualExchange\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\IndividualExchange\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\IndividualExchange\bin\Debug\RabbitMQ.Client.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\IndividualExchange\obj\Debug\IndividualExchange.dll
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\IndividualExchange\obj\Debug\IndividualExchange.pdb
