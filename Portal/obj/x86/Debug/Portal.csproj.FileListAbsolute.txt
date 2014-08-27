@@ -11,7 +11,6 @@ C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal\bin\Debug\MessageQueue.pdb
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal\bin\Debug\Newtonsoft.Json.pdb
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal\obj\x86\Debug\Portal.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\Portal\bin\Debug\LinqBridge.dll
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\Portal\bin\Debug\RabbitMQ.Client.dll
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\Portal\bin\Debug\RabbitMQ.Client.xml

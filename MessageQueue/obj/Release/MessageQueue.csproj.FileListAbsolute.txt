@@ -9,3 +9,4 @@ C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Messag
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\MessageQueue\bin\Release\LinqBridge.dll
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\MessageQueue\bin\Release\RabbitMQ.Client.dll
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\MessageQueue\bin\Release\RabbitMQ.Client.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\MessageQueue\obj\Release\MessageQueue.csprojResolveAssemblyReference.cache

@@ -201,10 +201,12 @@ namespace MessageQueue
                 if (!this.received)
                     throw new MessageException("Can only delay received " +
                                        "messages");
-                Dictionary<string, string> msg_body = JsonConvert.DeserializeObject<Dictionary<string, string>>(this.Body);
-                msg_body["_timestamp"] = Convert.ToString(this.sent);
-                msg_body["_type"] = this.messageType;
-                string json_msg_body = JsonConvert.SerializeObject(msg_body);
+                Dictionary<string, Dictionary<string, string>> payload = new Dictionary<string, Dictionary<string, string>>();
+                RootObject data = new RootObject();
+                data.payload = JsonConvert.DeserializeObject<Dictionary<string,Dictionary<string, string>>>(this.Body);
+                data._timestamp = Convert.ToString(this.sent);
+                data._type = this.messageType;
+                string json_msg_body = JsonConvert.SerializeObject(data);
                 IBasicProperties properties = delayChannel.CreateBasicProperties();
                 properties.CorrelationId = this.correlationID;
                 properties.ReplyTo = this.replyTo;
@@ -250,9 +252,10 @@ namespace MessageQueue
         {
             DateTime now = DateTime.Now;
             //string msg_body = this.body.Clone();
-            Newtonsoft.Json.Linq.JObject json_data = Newtonsoft.Json.Linq.JObject.Parse(this.Body);
-            json_data["_timestamp"] = Convert.ToString(now);
-            json_data["_type"] = this.messageType;
+            RootObject json_data = new RootObject();
+            json_data.payload = JsonConvert.DeserializeObject<Dictionary<string, Dictionary<string, string>>>(this.Body);
+            json_data._timestamp = Convert.ToString(now);
+            json_data._type = this.messageType;
             IBasicProperties properties = this.channel.CreateBasicProperties();
             properties.CorrelationId = this.correlationID;
             properties.ReplyTo = this.replyTo;
@@ -295,4 +298,13 @@ namespace MessageQueue
     }
 
     }
+}
+
+
+
+public class RootObject
+{
+    public Dictionary<string, Dictionary<string, string>> payload{ get; set; }
+    public string _timestamp { get; set; }
+    public string _type { get; set; }
 }

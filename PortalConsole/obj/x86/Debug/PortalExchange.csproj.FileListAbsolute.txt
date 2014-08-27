@@ -11,4 +11,3 @@ C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Portal
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\PortalConsole\bin\Debug\PortalExchange.pdb
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\PortalConsole\obj\x86\Debug\PortalExchange.exe
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\PortalConsole\obj\x86\Debug\PortalExchange.pdb
-C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\PortalConsole\obj\x86\Debug\PortalExchange.csprojResolveAssemblyReference.cache

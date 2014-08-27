@@ -10,4 +10,3 @@ C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Altitu
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualCLRTrigger\bin\Release\RabbitMQ.Client.xml
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualCLRTrigger\obj\Release\AltitudeIndividualCLRTrigger.dll
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualCLRTrigger\obj\Release\AltitudeIndividualCLRTrigger.pdb
-C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AltitudeIndividualCLRTrigger\obj\Release\AltitudeIndividualCLRTrigger.csprojResolveAssemblyReference.cache

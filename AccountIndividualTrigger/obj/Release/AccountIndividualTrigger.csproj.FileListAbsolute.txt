@@ -8,6 +8,5 @@ C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\Accoun
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AccountIndividualTrigger\bin\Release\Newtonsoft.Json.pdb
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AccountIndividualTrigger\bin\Release\Newtonsoft.Json.xml
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AccountIndividualTrigger\bin\Release\RabbitMQ.Client.xml
-C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AccountIndividualTrigger\obj\Release\AccountIndividualTrigger.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AccountIndividualTrigger\obj\Release\AccountIndividualTrigger.dll
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\AccountIndividualTrigger\obj\Release\AccountIndividualTrigger.pdb

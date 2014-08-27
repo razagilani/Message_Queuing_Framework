@@ -8,7 +8,6 @@ C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassL
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassLibrary1\bin\Release\Newtonsoft.Json.xml
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassLibrary1\obj\Release\CLRTrigger.dll
 C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassLibrary1\obj\Release\CLRTrigger.pdb
-C:\Users\Administrator\documents\visual studio 2010\Projects\MessageQueue\ClassLibrary1\obj\Release\CLRTrigger.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ClassLibrary1\bin\Release\LinqBridge.dll
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ClassLibrary1\bin\Release\RabbitMQ.Client.dll
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\MessageQueue\ClassLibrary1\bin\Release\RabbitMQ.Client.xml

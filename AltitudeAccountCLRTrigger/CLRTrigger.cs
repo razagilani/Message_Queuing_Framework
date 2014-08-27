@@ -45,13 +45,12 @@ namespace AltitudeAccountCLRTrigger
             SqlPipe sqlP = SqlContext.Pipe;
             SqlDataReader dr;
             sqlComm.CommandText = "SELECT Account_Token, Account_Global_Unique_Identifier, Create_Date, Account_Name from inserted";
-            dr = sqlComm.ExecuteReader();
+            dr = sqlComm.ExecuteReader();                
             SqlContext.Pipe.Send("Command Executed");
             Dictionary<string, Dictionary<string, string>> account = new Dictionary<string, Dictionary<string, string>>();
             if (dr.Read())
             {
                 Dictionary<string, string> content = new Dictionary<string, string>();
-                content.Add("Table", "Account");
                 content.Add("Token", Convert.ToString(dr[0]));
                 content.Add("GUID", Convert.ToString(dr[1]));
                 content.Add("Date_Created", Convert.ToString(dr[2]));
